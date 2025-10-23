@@ -9,4 +9,6 @@ const pi = 3.14;
 //Define a new variable “myNumber” and place a number of your choice inside it.
 let myNumber = 21;
 //Call the “min” function inside of the “Math” object on both “myNumber” and “pi” - what is the result? Why?
-minNum = Math.min(pi,myNumber); //result would be 3.14, pi since it is lower than what i set myNumber to, 21.
+let minNum = Math.min(pi,myNumber); //result would be 3.14, pi since it is lower than what i set myNumber to, 21.
+
+console.log(minNum);
